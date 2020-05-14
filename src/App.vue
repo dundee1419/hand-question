@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div id="app" class="flex">
+    <router-view/>
   </div>
 </template>
 
@@ -16,6 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  width: 100vw;
   min-height: 100vh;
   background-color: #f7f7f7;
 }
@@ -142,6 +143,9 @@
 .mt-10 {
   margin-top: 10px;
 }
+.mt-30{
+  margin-top: 30px;
+}
 .mt-20 {
   margin-top: 20px;
 }
@@ -151,4 +155,11 @@
 .pd-20 {
   padding: 20px;
 }
+.color-txt{
+  color:#C9C7D2;
+}
+.color-info{
+  color:#1989fa;
+}
+
 </style>
