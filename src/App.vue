@@ -1,6 +1,8 @@
 <template>
-  <div id="app" class="flex">
-    <router-view/>
+  <div id="app" class="flex-column">
+    <div class="flex-bavg flex-column">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -143,7 +145,7 @@
 .mt-10 {
   margin-top: 10px;
 }
-.mt-30{
+.mt-30 {
   margin-top: 30px;
 }
 .mt-20 {
@@ -155,11 +157,10 @@
 .pd-20 {
   padding: 20px;
 }
-.color-txt{
-  color:#C9C7D2;
+.color-txt {
+  color: #c9c7d2;
 }
-.color-info{
-  color:#1989fa;
+.color-info {
+  color: #1989fa;
 }
-
 </style>
